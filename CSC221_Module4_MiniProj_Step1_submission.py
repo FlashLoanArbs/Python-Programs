@@ -1,3 +1,10 @@
+ '''
+ Example tool for calculating a student's grade.
+ Program gets student's status ('UG' == Undergrad; 'G'== Graduate Student; 'DL' == Distance Learning) from input,
+ else excludes any other inputs & exits program.
+ Program then calculates ((points earned / points possible) * 100) & outputs as a percentage to the hundredths place.
+ '''
+
 student_status = str(input(f'Please enter student type: '))
 if student_status == 'G':
     pass                        
